@@ -1,5 +1,54 @@
 import React from "react";
-import PropTypes from "prop-types";
+//import PropTypes from "prop-types";
+import axios from "axios";
+class App extends React.Component {
+  /* example for state
+  //App class get extended from React class component
+  state = {
+    count: 0,
+  };
+
+  //this is customized function
+  add = () => {
+    this.setState((current) => ({ count: current.count + 1 }));
+  };
+  minus = () => {
+    this.setState((current) => ({ count: current.count - 1 }));
+  };
+  //In actual, we gotta display repeatedly page with new state.
+  //react refreshes by calling render and shows with new state.
+  //Hence, use 'setState' that call automatically 'render' and etc.
+  //(Thus, we need to make iteration by for, while)
+  render() {
+    return (
+      <div>
+        <h1>The number is {this.state.count}</h1>
+        <button onClick={this.add}>Add</button>
+        <button onClick={this.minus}>Minus</button>
+      </div>
+    );
+  }
+  */
+
+  state = {
+    isLoading: true,
+  };
+
+  getMovies = async () => {
+    //asynchronous function
+    //await till axios is done.
+    const movies = await axios.get("https://yts-proxy.now.sh/list_movies.json");
+  };
+
+  componentDidMount() {
+    this.getMovies();
+  }
+
+  render() {
+    const { isLoading } = this.state;
+    return <div>{isLoading ? "Loading..." : "We are ready"}</div>;
+  }
+}
 
 /*  ========== function component part ==================
 const foodILike = [
