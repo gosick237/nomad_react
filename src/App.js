@@ -1,6 +1,7 @@
 import React from "react";
 import PropTypes from "prop-types";
 
+/*  ========== function component part ==================
 const foodILike = [
   {
     id: 1,
@@ -53,6 +54,7 @@ function App() {
   );
 }
 //map : iterator for each element.
+*/
 
 export default App;
 
