@@ -138,7 +138,7 @@ function App() {
 //map : iterator for each element.
 */
 
-export default App;
+export default Home;
 
 //<Food fav="Kimchi"/> : fav is property, argument
 //                     : Food is function
