@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/github.io/nomad_react/static/css/main.8307cd42.chunk.css",
+    "main.js": "/github.io/nomad_react/static/js/main.63091775.chunk.js",
+    "main.js.map": "/github.io/nomad_react/static/js/main.63091775.chunk.js.map",
+    "runtime-main.js": "/github.io/nomad_react/static/js/runtime-main.d796b3cc.js",
+    "runtime-main.js.map": "/github.io/nomad_react/static/js/runtime-main.d796b3cc.js.map",
+    "static/js/2.bc1580cf.chunk.js": "/github.io/nomad_react/static/js/2.bc1580cf.chunk.js",
+    "static/js/2.bc1580cf.chunk.js.map": "/github.io/nomad_react/static/js/2.bc1580cf.chunk.js.map",
+    "index.html": "/github.io/nomad_react/index.html",
+    "static/css/main.8307cd42.chunk.css.map": "/github.io/nomad_react/static/css/main.8307cd42.chunk.css.map",
+    "static/js/2.bc1580cf.chunk.js.LICENSE.txt": "/github.io/nomad_react/static/js/2.bc1580cf.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d796b3cc.js",
+    "static/js/2.bc1580cf.chunk.js",
+    "static/css/main.8307cd42.chunk.css",
+    "static/js/main.63091775.chunk.js"
+  ]
+}
