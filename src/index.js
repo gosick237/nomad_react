@@ -7,4 +7,9 @@ import App from "./App";
 //<    /> is for html (called JSX: JS + HTML linking)
 //render only one component.
 //Hence, import other files in App.js
-ReactDOM.render(<App />, document.getElementById("root"));
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById("root")
+);
